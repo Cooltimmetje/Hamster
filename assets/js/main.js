@@ -40,7 +40,6 @@
 					// Images (in the format of 'url': 'alignment').
 						images: {
 							'http://i.imgur.com/KtzwHbq.png': 'center',
-							'http://i.imgur.com/mTOvJWn.png': 'center',
 							'http://i.imgur.com/sOFwlkP.png': 'center',
 							'http://i.imgur.com/dC5Ts45.png': 'center',
 							'http://i.imgur.com/RKQCsN4.png': 'top'
