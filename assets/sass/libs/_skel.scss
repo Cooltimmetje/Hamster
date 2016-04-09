@@ -172,7 +172,7 @@
 
 	}
 
-	/// Wraps @content in a @media block using a given breakpoint.
+	/// Wraps @content in a @Media block using a given breakpoint.
 	/// @param {string} $breakpoint Breakpoint.
 	/// @param {map} $queries Additional queries.
 	@mixin breakpoint($breakpoint: null, $queries: null) {
@@ -197,7 +197,7 @@
 
 	}
 
-	/// Wraps @content in a @media block targeting a specific orientation.
+	/// Wraps @content in a @Media block targeting a specific orientation.
 	/// @param {string} $orientation Orientation.
 	@mixin orientation($orientation) {
 		@media screen and (orientation: #{$orientation}) {
@@ -421,7 +421,7 @@
 
 								}
 
-						// Create @media block.
+						// Create @Media block.
 							@media screen and #{map-get($breakpoints, $name)} {
 								@include containers($containers);
 							}
@@ -510,7 +510,7 @@
 
 								}
 
-						// Create @media block.
+						// Create @Media block.
 							@media screen and #{map-get($breakpoints, $name)} {
 								@include grid($grid-gutters, $name);
 							}
